@@ -16,7 +16,8 @@ body {
 h2 {
   width: 440px;
   text-align: center;
-  font-family: sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: auto;
 }
 
@@ -31,7 +32,7 @@ button {
 .display input {
   width: 440px;
   height: 50px;
-  background-color: black;
+  background-color: #222222;
   outline: none;
   border-style: none;
   margin-bottom: 5px;
@@ -41,7 +42,7 @@ button {
   color: white;
   font-size: 40px;
   text-align: right;
-  
+
 }
 
 .buttonInput {
@@ -52,10 +53,16 @@ button {
 }
 
 .buttonInput button {
-  width: 105px;
+  font-size: 18px;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #808080;
+  border: none;
+  cursor: pointer;
+  width: 100px;
   height: 50px;
   font-size: 40px;
-  background-color: white;
   margin-bottom: 3px;
 }
 
@@ -69,6 +76,14 @@ button {
 }
 
 .buttonFunction button {
+  font-size: 40px;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #0099ff;
+  border: none;
+  cursor: pointer;
+  margin-right: 2px;
   width: 220px;
   height: 50px;
 }
